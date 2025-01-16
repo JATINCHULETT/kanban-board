@@ -1,0 +1,151 @@
+*{
+    margin:0%;
+}
+/* all colors button */
+.toolbox-cont{
+    display: flex;
+    height:3rem ;
+    background-color:purple;
+    align-items: center;
+}
+.toolbox-priority-cont{
+    display: flex;
+    height:2.5rem ;
+    width: 18rem;
+    background-color:peachpuff;
+    margin-left: 4rem;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5%;
+}
+
+.color{
+    height: 1.5rem;
+    width: 3rem;
+    cursor: pointer;
+}
+
+.lightpink{
+    background-color: lightpink;
+}
+.lightgreen{
+    background-color: lightgreen;
+}
+.lightblue{
+    background-color: lightblue;
+}
+.black{
+    background-color: black;
+}
+/* add & remove btn */
+
+.action-btn-cont{
+    display:flex;
+    background-color: antiquewhite;
+    height: 2.5rem;
+    margin-left:30rem ;
+    border-radius: 7%;
+    
+}
+.add-btn{
+    height: 2rem;
+    width: 2rem;
+    background-color: green;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-left:1.5rem ;
+    margin-right: 1rem;
+    margin-top:0.25rem ;
+}
+    
+
+    
+
+.remove-btn{
+    height: 2rem;
+    width: 2rem;
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-right: 1.5rem;
+    margin-top:0.25rem ;
+}
+/* modal pop-up window  */
+.modal-cont{
+    display: flex;
+    margin-top: auto;
+    justify-content: center;
+    left: 32%;
+    position:fixed;
+    border: 3px solid black;
+    background-color: palegoldenrod;
+    border-radius: 7px;
+    
+    
+    
+}
+.textArea-cont{
+    resize:none;
+    width:500px;
+    height:400px;
+    background-color:lightgrey;
+    border-radius: 7px;
+}
+.priority-color{
+    height:40px;
+    width:80px;
+}
+.priority-colors-container{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    }
+    .active{
+        border:2px solid red
+    }
+    /* ticket */
+    .main-cont{
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+        gap : 2rem;
+        flex-wrap: wrap;
+      
+      }
+      
+      .ticket-cont{
+        height: 12rem;
+        width: 15rem;
+        background-color: coral;
+      }
+      
+      .ticket-color{
+        background-color: lightpink;
+        height: 1.5rem;
+      }
+      
+      .ticket-id{
+        background-color: yellow;
+        height:1.8rem ;
+      }
+      
+      .ticket-lock{
+        display: flex;
+        justify-content: end;
+        margin-top: 6rem;
+        font-size: 1.4rem;
+      }
+      
